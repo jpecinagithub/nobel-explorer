@@ -13,12 +13,11 @@ export default function Author() {
         </p>
 
         <div className="flex items-center gap-5 mb-8">
-          <span
-            aria-hidden
-            className="w-20 h-20 rounded-full bg-night text-gold font-serif text-3xl font-semibold flex items-center justify-center shrink-0"
-          >
-            JP
-          </span>
+          <img
+            src="/author.jpg"
+            alt={t("author.name")}
+            className="w-20 h-20 rounded-full object-cover border border-line bg-white shrink-0"
+          />
           <div>
             <h1 className="font-serif text-3xl sm:text-4xl font-semibold">{t("author.name")}</h1>
             <p className="text-gold-deep font-medium mt-1">{t("author.role")}</p>
