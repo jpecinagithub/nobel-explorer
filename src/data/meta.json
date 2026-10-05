@@ -1,0 +1,17 @@
+{
+  "generated": "2026-10-05",
+  "source": "api.nobelprize.org (CC0 data) + en.wikipedia.org thumbnails",
+  "count": 1018,
+  "persons": 990,
+  "organizations": 28,
+  "yearMin": 1901,
+  "yearMax": 2025,
+  "categories": [
+    "Chemistry",
+    "Economic Sciences",
+    "Literature",
+    "Peace",
+    "Physics",
+    "Physiology or Medicine"
+  ]
+}
