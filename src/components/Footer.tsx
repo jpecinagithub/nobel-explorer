@@ -36,12 +36,13 @@ export default function Footer() {
             <ul className="space-y-2.5 text-sm">
               <li><Link to="/sources" className="hover:text-gold">{t("footer.sources")}</Link></li>
               <li><Link to="/alfred-nobel" className="hover:text-gold">Alfred Nobel</Link></li>
+              <li><Link to="/author" className="hover:text-gold">{t("footer.author")}</Link></li>
               <li><Link to="/privacy" className="hover:text-gold">{t("footer.privacy")}</Link></li>
             </ul>
           </div>
         </div>
         <div className="border-t border-white/10 mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-white/50">
-          <span>Nobel Explorer · {t("footer.madeBy")} · jpecina@gmail.com</span>
+          <span>Nobel Explorer · <Link to="/author" className="hover:text-gold">{t("footer.madeBy")}</Link> · jpecina@gmail.com</span>
           <span>Data: nobelprize.org · Biographies: Wikipedia (CC BY-SA)</span>
         </div>
       </div>

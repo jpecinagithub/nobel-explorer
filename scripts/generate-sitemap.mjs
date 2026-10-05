@@ -23,6 +23,7 @@ const staticRoutes = [
   "/years",
   "/history",
   "/alfred-nobel",
+  "/author",
   "/statistics",
   "/sources",
 ];

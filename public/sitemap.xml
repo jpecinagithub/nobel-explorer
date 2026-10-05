@@ -13,6 +13,7 @@
   <url><loc>https://nobel-explorer.app/years</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://nobel-explorer.app/history</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://nobel-explorer.app/alfred-nobel</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://nobel-explorer.app/author</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://nobel-explorer.app/statistics</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://nobel-explorer.app/sources</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://nobel-explorer.app/year/1901</loc><changefreq>monthly</changefreq></url>

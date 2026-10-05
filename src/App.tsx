@@ -20,6 +20,7 @@ const AlfredNobel = lazy(() => import("./pages/AlfredNobel"));
 const Statistics = lazy(() => import("./pages/Statistics"));
 const Sources = lazy(() => import("./pages/Info").then((m) => ({ default: m.Sources })));
 const Privacy = lazy(() => import("./pages/Info").then((m) => ({ default: m.Privacy })));
+const Author = lazy(() => import("./pages/Author"));
 
 function NotFound() {
   const { t } = useTranslation();
@@ -75,6 +76,7 @@ export default function App() {
                 <Route path="/statistics" element={<Statistics />} />
                 <Route path="/sources" element={<Sources />} />
                 <Route path="/privacy" element={<Privacy />} />
+                <Route path="/author" element={<Author />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
               </Suspense>
